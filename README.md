@@ -5,10 +5,10 @@ This project presents a comprehensive analysis of car accidents in the United St
 ## About the Dataset
 I would like to draw your attention to a comprehensive dataset on car accidents in the United States, encompassing 49 states. The data, spanning from February 2016 to December 2021, was sourced through multiple APIs, providing real-time information on traffic incidents. These APIs transmit traffic data gathered from a range of sources, including departments of transportation at the state and federal levels, law enforcement agencies, traffic cameras, and sensors embedded within the road networks. With approximately 2.8 million records, this dataset represents a valuable resource for those seeking to gain insights into the patterns and trends of car accidents in the US.
 
-# Number of Records
-~ 2.8 Million
-# Number of Features
-47
+## Number of Records
+# ~ 2.8 Million
+## Number of Features
+# 47
 
 # Data Preparation and Cleaning
 The data preparation and cleaning phase involved loading and downloading the files using Pandas, analyzing the information contained within, and correcting or accounting for any missing or incorrect values. This step is crucial in ensuring the accuracy and reliability of our analysis.
