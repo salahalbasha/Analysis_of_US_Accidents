@@ -1,8 +1,8 @@
-#Analysis_of_US_Accidents
+# Analysis_of_US_Accidents
 
 This project presents a comprehensive analysis of car accidents in the United States using a real-world dataset. Our analysis will uncover valuable insights into the frequency and distribution of accidents across the country, and provide potential explanations for the underlying causes. The goal of this project is to contribute to efforts to reduce accidents and improve road safety by shedding light on the importance of safe driving.
 
-##About the Dataset
+## About the Dataset
 I would like to draw your attention to a comprehensive dataset on car accidents in the United States, encompassing 49 states. The data, spanning from February 2016 to December 2021, was sourced through multiple APIs, providing real-time information on traffic incidents. These APIs transmit traffic data gathered from a range of sources, including departments of transportation at the state and federal levels, law enforcement agencies, traffic cameras, and sensors embedded within the road networks. With approximately 2.8 million records, this dataset represents a valuable resource for those seeking to gain insights into the patterns and trends of car accidents in the US.
 
 # Number of Records
@@ -10,16 +10,16 @@ I would like to draw your attention to a comprehensive dataset on car accidents 
 # Number of Features
 47
 
-#Data Preparation and Cleaning
+# Data Preparation and Cleaning
 The data preparation and cleaning phase involved loading and downloading the files using Pandas, analyzing the information contained within, and correcting or accounting for any missing or incorrect values. This step is crucial in ensuring the accuracy and reliability of our analysis.
 
 <img width="1274" alt="Screen Shot 2023-03-10 at 11 35 05 AM" src="https://user-images.githubusercontent.com/105601398/224371534-fd0803e6-6649-4cbe-a4d0-e0539f18744c.png">
 Based on the bar chart of missing values, it appears that a few columns have a missing value percentage exceeding 30%. In the interest of maintaining the accuracy and representativeness of our data, it would be appropriate to exclude these columns from our analysis.
 
-#Exploratory Analysis and Visualization
+# Exploratory Analysis and Visualization
 The exploratory analysis and visualization phase involved analyzing key columns such as City, Start Time, Start Latitude, and Start Longitude. These columns were chosen as they are likely to provide useful insights into the frequency and distribution of accidents across different regions and time periods. The results of this phase will be used to guide further analysis and hypothesis testing.
 
-##Cities with the most Accidents
+## Cities with the most Accidents
 The number of cities in this dataset is: 9681 out of over 108,000 in the United States.
 
 Top 10 cities in the US with the most accidents
@@ -27,11 +27,11 @@ Top 10 cities in the US with the most accidents
 <img width="215" alt="Screen Shot 2023-03-10 at 11 36 37 AM" src="https://user-images.githubusercontent.com/105601398/224371860-fe7b70e6-6421-422d-9c33-14185549868e.png">
 It is noted that New York City, which is the most populated city in the United States, is not represented in this data set.
 
-##Number of Accidents per City
+## Number of Accidents per City
 
 <img width="1270" alt="Screen Shot 2023-03-10 at 11 38 13 AM" src="https://user-images.githubusercontent.com/105601398/224372274-0c82029b-6bb7-4d00-adc1-a3bbe09944f5.png">
 
-##Heatmap of US Accident Incidents
+## Heatmap of US Accident Incidents
 Higher Layers Represent Increased Accident Density and Severity
 
 <img width="761" alt="Screen Shot 2023-03-10 at 11 40 03 AM" src="https://user-images.githubusercontent.com/105601398/224372573-7178bb05-40c5-4046-bb18-d3243d842f07.png">
